@@ -1,0 +1,172 @@
+html, body {
+   height: 100%;
+   color: black;
+   min-height: 100%;
+   min-height: 100vh;
+  overflow-x: hidden;
+}
+
+
+body
+{
+ font-family: Georgia, serif;
+
+   height: 100%;
+
+   background-image: url('../images/background.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: grey;
+
+}
+
+@media only screen and (max-width: 800px) {
+.description {
+
+font-size: 26px;
+}
+
+
+}
+
+
+
+
+
+
+a:visited{
+  color:white;
+}
+
+
+
+
+h1 {
+  font-size: 70px;
+  background-color: #add8e6;
+  text-align: center;
+}
+
+
+p  {
+  font-size: 15px;
+  text-align: center;
+}
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #52b7e9;
+}
+
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+.list
+  {
+    font-size: 20px
+  }
+
+  li {
+      list-style-type: none;
+  }
+
+
+
+
+
+.title_information
+
+{
+  font-size: 50px;
+
+}
+
+.general_information
+
+{
+  text-align: left;
+  clear: left;
+  display:block;
+  color: black
+}
+
+
+.photo
+
+{
+  float: left;
+  margin: 15px 20px 10px 0px;
+  border: solid 4px #fff;
+  padding: 10px;
+
+  max-width: 100%;
+
+}
+
+.description
+
+{
+
+overflow-wrap: normal;
+color: black;
+
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+.title_information {
+
+font-size: 55px;
+}
+
+body {
+  min-height: 100%
+}
+}
